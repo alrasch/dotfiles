@@ -173,3 +173,8 @@ exec --no-startup-id dropbox start
 bindsym $mod+Ctrl+Shift+1 exec bash ~/Dev/ProductivityScripts/volume_shift -u
 bindsym $mod+Ctrl+Shift+2 exec bash ~/Dev/ProductivityScripts/volume_shift -d
 
+bindsym $mod+Shift+minus move scratchpad
+bindsym $mod+minus scratchpad show
+
+bindsym $mod+Ctrl+Right move workspace to output right
+bindsym $mod+Ctrl+Left move workspace to output left
